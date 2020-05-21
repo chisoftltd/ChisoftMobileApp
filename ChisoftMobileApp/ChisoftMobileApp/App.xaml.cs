@@ -13,7 +13,7 @@ namespace ChisoftMobileApp
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
+            DependencyService.Register<IPlace>();
             MainPage = new AppShell();
         }
 
