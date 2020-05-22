@@ -33,6 +33,8 @@ namespace ChisoftMobileApp.Views
         private void myItem_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             PlaceModel myValue = e.CurrentSelection.FirstOrDefault() as PlaceModel;
+
+            App.Current.MainPage.Navigation.PushAsync(new MapPage(myValue));
         }
     }
 }

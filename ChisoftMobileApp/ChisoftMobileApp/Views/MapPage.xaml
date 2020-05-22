@@ -7,8 +7,16 @@
              mc:Ignorable="d"
              x:Class="ChisoftMobileApp.Views.MapPage">
     <ContentPage.Content>
-        <StackLayout>
-            <maps:Map x:Name="map" />
-        </StackLayout>
+        <Grid>
+            <StackLayout x:Name="contanier">
+
+            </StackLayout>
+            <StackLayout Padding ="0" Margin="10" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent" VerticalOptions="End">
+                <Frame HeightRequest="100" BackgroundColor="White" Margin="0" Padding="0">
+                    
+                </Frame>
+                
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
