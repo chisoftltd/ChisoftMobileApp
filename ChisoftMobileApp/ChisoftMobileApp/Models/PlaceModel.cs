@@ -8,6 +8,7 @@ namespace ChisoftMobileApp.Models
     {
         public int id { get; set; }
         public string StallName { get; set; }
+        public string ImageUrl { get; set; }
         public string Description { get; set; }
         public double longitute { get; set; }
         public double latitute { get; set; }

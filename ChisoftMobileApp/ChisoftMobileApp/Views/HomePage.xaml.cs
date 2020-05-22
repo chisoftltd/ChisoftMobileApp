@@ -14,7 +14,7 @@ namespace ChisoftMobileApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
-        IPlace mock => DependencyService.Get<IPlace>();
+        Place mock => DependencyService.Get<Place>();
 
         public HomePage()
         {
