@@ -29,5 +29,10 @@ namespace ChisoftMobileApp.Views
 
             myItem.ItemsSource = newItem;
         }
+
+        private void myItem_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            PlaceModel myValue = e.CurrentSelection.FirstOrDefault() as PlaceModel;
+        }
     }
 }

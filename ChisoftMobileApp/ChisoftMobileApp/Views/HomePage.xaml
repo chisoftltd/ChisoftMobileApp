@@ -13,7 +13,7 @@
                 <Label Text="Nearby me" TextColor="DarkGray" FontSize="20" FontAttributes="Bold"/>
             </StackLayout>
 
-            <CollectionView x:Name="myItem" Margin="10">
+            <CollectionView x:Name="myItem" Margin="10" SelectionMode="Single" SelectionChanged="myItem_SelectionChanged">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Margin="20" Padding="0">
