@@ -10,7 +10,7 @@
        
         <StackLayout BackgroundColor="#F2F2F2">
             <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="Start" Margin="10">
-                <Label Text="Places of Intrest to Chinwes" TextColor="DarkGray" FontSize="20" FontAttributes="Bold"/>
+                <Label Text="Places of Interest to Chinwes" TextColor="DarkGray" FontSize="20" FontAttributes="Bold"/>
             </StackLayout>
 
             <CollectionView x:Name="myItem" Margin="10" SelectionMode="Single" SelectionChanged="myItem_SelectionChanged">
